@@ -1,0 +1,128 @@
+:root{font-size: 16px;
+font-weight:bold;
+font-family: 'Open Sans';
+--text-primary: #ffffff;
+--text-secondary: #ececec;
+--bg-primary: hsl(313, 23%, 58%);
+--bg-secondary: #694a69;
+--transition-speed: 200ms;
+}
+body{color:black;
+margin:0;
+padding:0;}
+html{
+background-image:url(bg.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment:fixed}
+main{margin-left: 5rem;
+padding:1rem;}
+body::-webkit-scrollbar{width:0.85rem;}
+body::-webkit-scrollbar-track{background: #bfbfe2;}
+body::-webkit-scrollbar-thumb{background: #ae69b8;}
+.navbar{
+    width:5rem;
+    height:100vh;
+    position:fixed;
+    background-color:var(--bg-primary);
+    transition:width 400ms ease;
+}
+.navbar-nav{
+     list-style:none;
+     padding:0;
+     margin:0;
+     flex-direction:column;
+     align-items:center;
+     height:100%
+}
+.nav-item:{
+    width:100%;
+    margin:auto;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    height:5rem;
+    color:var(--text-primary);
+    text-decoration:none;
+    filter: grayscale(100%) opacity(0.7);
+    transition: 400ms ease
+}
+.nav-link:hover{
+    filter: grayscale(0) opacity(1);
+    background: var(--bg-secondary);
+    color : var(--text-secondary);
+}
+.link-text{
+    display:none;
+    margin-left:1rem;
+}
+.nav-link svg{  
+    min-width:2rem;
+    margin: 0 1.5rem;} 
+.navbar:hover {
+    width: 16rem;
+}
+.navbar:hover .link-text{
+    display:block;
+}
+.logo{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size:1.5rem;
+    color: var(--text-primary);
+    background: var(--bg-secondary);
+    letter-spacing:0.3ch;
+    width:100%;
+}
+.logo svg{
+    transform: rotate(0deg);
+    transition: transform 400ms;
+}
+.navbar:hover .logo svg{
+    transform: rotate(-180deg);
+}
+.nope{
+    width:395px;
+    height:44px;
+    margin-left:480px;
+        }
+.img1{
+    border: solid 5px;
+    float:right;
+    margin-top:100px;
+}
+.img5{float:right;}
+.nope:hover{
+    position:relative;
+    font-size:2em;
+    font-weight:bolder;
+    text-decoration:none;
+    line-height:1em;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    text-shadow:1px 1px 15px rgb(218, 218, 184);
+    transition:200ms ease-in
+}
+iframe{margin-bottom:30px;}
+.人標題{width:200px;height:30px;}       
+.dick {
+    letter-spacing:2px;
+    line-height:1em;
+}
+.goal {
+    letter-spacing:2px;
+    line-height:3.5em;
+}
+p{
+    letter-spacing:2.5px;
+    line-height:2em;
+}
+.img6{float:right;}
+.img7{float:right}
+.img8{float:right}
+.img9{margin-top:10px;margin-left:1070px;}
+.img10{height:70% ; width:70%}  
