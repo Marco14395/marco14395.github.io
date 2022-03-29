@@ -86,6 +86,7 @@ body::-webkit-scrollbar-thumb{background: #ae69b8;}
     transform: rotate(-180deg);
 }
 .nope{
+    text-align: center;
     width:395px;
     height:44px;
     margin-left:480px;
